@@ -1,0 +1,16 @@
+{
+  "name": "vmdecoder-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that decodes obfuscated HTML/JS using runtime VM hooks",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "puppeteer": "^22.0.0"
+  }
+}
